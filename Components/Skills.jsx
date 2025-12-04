@@ -1,14 +1,9 @@
 export default function Skills() {
-  const skills = ["Power BI", "Python", "SQL", "Excel", "Streamlit", "Data Visualization"];
   return (
-    <section className="py-12">
-      <h3 className="text-xl font-semibold">Skills & Tools</h3>
-      <div className="mt-4 flex flex-wrap gap-3">
-        {skills.map((s) => (
-          <div key={s} className="px-3 py-2 bg-white rounded-md shadow-sm text-sm">
-            {s}
-          </div>
-        ))}
+    <section id="skills" className="space-y-4">
+      <h2 className="text-3xl font-bold text-primary">Skills</h2>
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        {/* Add skills as <div className="bg-dark p-4 rounded">Skill</div> */}
       </div>
     </section>
   );
